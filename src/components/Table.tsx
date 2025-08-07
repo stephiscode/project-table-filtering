@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from 'react';
 import { BsThreeDots } from "react-icons/bs";
 import { BiSort } from "react-icons/bi";
 import { MdSort } from "react-icons/md";
@@ -15,7 +15,7 @@ const ProjectTable = () => {
 
   const [dropdownVisible, setDropdownVisible] = useState(false);
   const [filtersVisible, setFiltersVisible] = useState(false);
-  const [searchQuery, setSearchQuery] = useState("");
+  const [searchQuery] = useState("");
   const [filters, setFilters] = useState({
     name: "",
     country: "",

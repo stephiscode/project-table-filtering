@@ -1,4 +1,16 @@
-export const data = [
+export type RowType = {
+  client: string;
+  country: string;
+  email: string;
+  project: string;
+  progress: string;
+  status: string;
+  date: string;
+  image: string;
+  [key: string]: string; 
+}
+
+export const data:RowType[] = [
   {
     client: "Alice Johnson",
     country: "Canada",
